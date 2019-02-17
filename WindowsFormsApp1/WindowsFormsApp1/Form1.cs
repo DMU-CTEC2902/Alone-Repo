@@ -12,6 +12,7 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
+        
         public Form1()
         {
             InitializeComponent();
@@ -20,6 +21,12 @@ namespace WindowsFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void pbTest_Click(object sender, EventArgs e)
+        {
+            NavigationTest test = new NavigationTest();
+            test.ShowDialog(); 
         }
     }
 }
