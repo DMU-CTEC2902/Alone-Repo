@@ -16,5 +16,10 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        internal void ListOfMovies()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

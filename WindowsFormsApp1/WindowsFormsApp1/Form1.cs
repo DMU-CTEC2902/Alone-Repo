@@ -28,5 +28,9 @@ namespace WindowsFormsApp1
             NavigationTest test = new NavigationTest();
             test.ShowDialog(); 
         }
+
+        private void ListOfMovies_SelectedIndexChanged(object sender, EventArgs e)
+        {
+        }
     }
 }
