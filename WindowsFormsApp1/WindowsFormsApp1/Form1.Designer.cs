@@ -34,6 +34,8 @@
             this.btnOk = new System.Windows.Forms.Button();
             this.tst2 = new System.Windows.Forms.Button();
             this.pbTest = new System.Windows.Forms.PictureBox();
+            this.btncancel = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbTest)).BeginInit();
             this.SuspendLayout();
             // 
@@ -89,11 +91,30 @@
             this.pbTest.Click += new System.EventHandler(this.pbTest_Click);
             this.pbTest.DoubleClick += new System.EventHandler(this.pbTest_Click);
             // 
+            // btncancel
+            // 
+            this.btncancel.Location = new System.Drawing.Point(297, 297);
+            this.btncancel.Name = "btncancel";
+            this.btncancel.Size = new System.Drawing.Size(75, 23);
+            this.btncancel.TabIndex = 5;
+            this.btncancel.Text = "Cancel";
+            this.btncancel.UseVisualStyleBackColor = true;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(138, 173);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(152, 21);
+            this.comboBox1.TabIndex = 6;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.btncancel);
             this.Controls.Add(this.pbTest);
             this.Controls.Add(this.tst2);
             this.Controls.Add(this.btnOk);
@@ -114,6 +135,8 @@
         private System.Windows.Forms.Button btnOk;
         private System.Windows.Forms.Button tst2;
         private System.Windows.Forms.PictureBox pbTest;
+        private System.Windows.Forms.Button btncancel;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
 
