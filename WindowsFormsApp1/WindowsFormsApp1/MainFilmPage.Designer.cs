@@ -78,7 +78,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(107, 52);
+            this.pictureBox1.Location = new System.Drawing.Point(107, 62);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(224, 116);
             this.pictureBox1.TabIndex = 0;
@@ -118,7 +118,7 @@
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Location = new System.Drawing.Point(638, 52);
+            this.pictureBox7.Location = new System.Drawing.Point(638, 62);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(224, 116);
             this.pictureBox7.TabIndex = 6;
@@ -166,7 +166,7 @@
             // 
             // pictureBox14
             // 
-            this.pictureBox14.Location = new System.Drawing.Point(1148, 52);
+            this.pictureBox14.Location = new System.Drawing.Point(1148, 62);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(224, 116);
             this.pictureBox14.TabIndex = 13;
@@ -186,7 +186,7 @@
             this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1540, 40);
+            this.menuStrip1.Size = new System.Drawing.Size(1540, 42);
             this.menuStrip1.TabIndex = 14;
             this.menuStrip1.Text = "menuStrip1";
             // 
