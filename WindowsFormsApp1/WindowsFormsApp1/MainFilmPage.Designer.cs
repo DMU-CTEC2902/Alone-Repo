@@ -61,6 +61,7 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.directorsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnClose = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -186,7 +187,7 @@
             this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1540, 42);
+            this.menuStrip1.Size = new System.Drawing.Size(1540, 40);
             this.menuStrip1.TabIndex = 14;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -346,11 +347,22 @@
             this.directorsToolStripMenuItem.Size = new System.Drawing.Size(122, 36);
             this.directorsToolStripMenuItem.Text = "Directors";
             // 
+            // btnClose
+            // 
+            this.btnClose.Location = new System.Drawing.Point(1367, 870);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(161, 62);
+            this.btnClose.TabIndex = 27;
+            this.btnClose.Text = "Close";
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
             // MainFilmPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1540, 944);
+            this.Controls.Add(this.btnClose);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
@@ -433,5 +445,6 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.ToolStripMenuItem directorsToolStripMenuItem;
+        private System.Windows.Forms.Button btnClose;
     }
 }
