@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form1 : Form
+    public partial class HomePage : Form
     {
         
-        public Form1()
+        public HomePage()
         {
             InitializeComponent();
         }
@@ -25,7 +25,7 @@ namespace WindowsFormsApp1
 
         private void pbTest_Click(object sender, EventArgs e)
         {
-            NavigationTest test = new NavigationTest();
+            FilmPage test = new FilmPage();
             test.ShowDialog(); 
         }
 

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class NavigationTest : Form
+    public partial class FilmPage : Form
     {
-        public NavigationTest()
+        public FilmPage()
         {
             InitializeComponent();
         }
@@ -20,6 +20,16 @@ namespace WindowsFormsApp1
         internal void ListOfMovies()
         {
             throw new NotImplementedException();
+        }
+
+        private void pbTest_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FilmPage_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
