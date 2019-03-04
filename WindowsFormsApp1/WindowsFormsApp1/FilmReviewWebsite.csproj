@@ -45,6 +45,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Film1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Film1.Designer.cs">
+      <DependentUpon>Film1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Film2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Film2.Designer.cs">
+      <DependentUpon>Film2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Film3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Film3.Designer.cs">
+      <DependentUpon>Film3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Film4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Film4.Designer.cs">
+      <DependentUpon>Film4.cs</DependentUpon>
+    </Compile>
     <Compile Include="HomePage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,13 +81,34 @@
     <Compile Include="FilmPage.Designer.cs">
       <DependentUpon>FilmPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="MainFilmPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFilmPage.Designer.cs">
+      <DependentUpon>MainFilmPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Film1.resx">
+      <DependentUpon>Film1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Film2.resx">
+      <DependentUpon>Film2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Film3.resx">
+      <DependentUpon>Film3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Film4.resx">
+      <DependentUpon>Film4.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FilmPage.resx">
       <DependentUpon>FilmPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HomePage.resx">
       <DependentUpon>HomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFilmPage.resx">
+      <DependentUpon>MainFilmPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
