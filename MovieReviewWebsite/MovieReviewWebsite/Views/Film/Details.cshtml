@@ -3,6 +3,8 @@
 @{
     Layout = null;
 }
+ 
+<h2>Details</h2>
 
 <!DOCTYPE html>
 
@@ -12,6 +14,21 @@
     <title>Details</title>
 </head>
 <body>
+    @{
+        ViewBag.Title = "Details";
+    }
+    <h2>@Model.FilmID</h2>
+    <h3>@Model.Name</h3>
+    <p>@Model.Description</p>
+    <p>@Model.GenreID</p>
+    <p>@Model.Rating</p>
+    <p><strong>@Model.FilmLength</strong></p>
+
+    @*<h2>User Info:</h2>
+    <p><strong>First Name:</strong> @Model.User.FirstName</p>
+    <p><strong>First Name:</strong> @Model.User.LastName</p>*@
+
+
     <div>
         <h4>Film</h4>
         <hr />
@@ -19,43 +36,43 @@
             <dt>
                 @Html.DisplayNameFor(model => model.Name)
             </dt>
-    
+
             <dd>
                 @Html.DisplayFor(model => model.Name)
             </dd>
-    
+
             <dt>
                 @Html.DisplayNameFor(model => model.Description)
             </dt>
-    
+
             <dd>
                 @Html.DisplayFor(model => model.Description)
             </dd>
-    
+
             <dt>
                 @Html.DisplayNameFor(model => model.FilmLength)
             </dt>
-    
+
             <dd>
                 @Html.DisplayFor(model => model.FilmLength)
             </dd>
-    
+
             <dt>
-                @Html.DisplayNameFor(model => model.Genre)
+                @Html.DisplayNameFor(model => model.GenreID)
             </dt>
-    
+
             <dd>
-                @Html.DisplayFor(model => model.Genre)
+                @Html.DisplayFor(model => model.GenreID)
             </dd>
-    
+
             <dt>
                 @Html.DisplayNameFor(model => model.Rating)
             </dt>
-    
+
             <dd>
                 @Html.DisplayFor(model => model.Rating)
             </dd>
-    
+
         </dl>
     </div>
     <p>
