@@ -48,18 +48,18 @@ namespace MovieReviewWebsite.Controllers
             if (selectedFilm == null) return new HttpNotFoundResult();
 
 
-            User user = new User
-            {
-                UserID = 1,
-                FirstName = "Rob",
-                LastName = "Smith"
-            };
+            //User user = new User
+            //{
+            //    UserID = 1,
+            //    FirstName = "Rob",
+            //    LastName = "Smith"
+            //};
 
-            UserFilmViewModel viewModel = new UserFilmViewModel
-            {
-                User = user,
-                Film = selectedFilm
-            };
+            //UserFilmViewModel viewModel = new UserFilmViewModel
+            //{
+            //    User = user,
+            //    Film = selectedFilm
+            //};
 
             return View(selectedFilm);
 
