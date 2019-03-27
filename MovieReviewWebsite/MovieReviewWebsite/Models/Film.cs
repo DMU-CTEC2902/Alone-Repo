@@ -12,6 +12,7 @@ namespace MovieReviewWebsite.Models
         public virtual string Description { get; set; }
         public virtual string FilmLength { get; set; }
         public virtual int GenreID { get; set; }
+        public virtual string Genre { get; set; }
         public virtual string Rating { get; set; }
 
     }
