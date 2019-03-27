@@ -125,5 +125,128 @@ namespace MovieReviewWebsite.Controllers
             }
             base.Dispose(disposing);
         }
+
+        // GET: Details/id
+
+        public ActionResult SelectedDetails(int? id)
+        {
+            if (id == null) return new HttpNotFoundResult();
+
+            Film selectedFilm = films.First(p => p.FilmID == id);
+
+            if (selectedFilm == null) return new HttpNotFoundResult();
+
+
+            //User user = new User
+            //{
+            //    UserID = 1,
+            //    FirstName = "Rob",
+            //    LastName = "Smith"
+            //};
+
+            //UserFilmViewModel viewModel = new UserFilmViewModel
+            //{
+            //    User = user,
+            //    Film = selectedFilm
+            //};
+
+            return View(selectedFilm);
+
+        }
+
+        // GET: Film/Delete/5
+        public ActionResult Delete(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Film film = db.Films.Find(id);
+            if (film == null)
+            {
+                return HttpNotFound();
+            }
+            return View(film);
+        }
+
+        private List<Film> films = new List<Film>()
+        {
+            new Film { FilmID = 1,
+
+                Name = "Aquaman",
+                Description = "Aquaman is a film",
+                FilmLength = "2h 22m",
+                GenreID = 1,
+                Rating = "5 Stars"},
+
+            new Film { FilmID = 2,
+
+                Name = "The Lord of the Ring",
+                Description = "The Lord of the Ring is a film",
+                FilmLength = "2h 30m",
+                GenreID = 2,
+                Rating = "5 Stars"},
+
+            new Film { FilmID = 3,
+
+                Name = "Avatar",
+                Description = "Avatar is a film",
+                FilmLength = "2h 30m",
+                GenreID = 3,
+                Rating = "4 Stars" },
+
+            new Film { FilmID = 4,
+
+                Name = "The Shape of Water",
+                Description = "The Shape of Water is a film",
+                FilmLength = "2h 19m",
+                GenreID = 4,
+                Rating = "4.5 Stars" },
+
+             new Film { FilmID = 5,
+
+                Name = "Gravity",
+                Description = "Gravity is a film",
+                FilmLength = "1h 45m",
+                GenreID = 5,
+                Rating = "5 Stars" },
+
+                new Film { FilmID = 6,
+
+                Name = "Up in the Air",
+                Description = "Up in the Air is a film",
+                FilmLength = "2h 15m",
+                GenreID = 6,
+                Rating = "4 Stars" },
+
+                new Film { FilmID = 7,
+                    Name = "Their Finest",
+                    Description = "Their Finest is a film",
+                    FilmLength = "2h 30m",
+                    GenreID  = 7,
+                    Rating = "4 Stars" },
+
+                 new Film { FilmID = 8,
+                     Name = "Before Sunset",
+                     Description = "Before Sunset is a film",
+                     FilmLength = "1h 20m",
+                     GenreID = 3,
+                     Rating = "5 Stars" },
+
+                 new Film { FilmID = 9,
+                     Name = "Cinderella",
+                     Description = "Cinderella is a film",
+                     FilmLength = "1h 59m",
+                     GenreID = 9,
+                     Rating = "4.5 Stars" },
+
+                 new Film { FilmID = 10,
+                     Name = "The Mask of Zorro",
+                     Description = "The Mask of Zorro is a film",
+                     FilmLength = "1h 45m",
+                     GenreID = 1,
+                     Rating = "5 Stars" },
+                 //
+            };
     }
 }
