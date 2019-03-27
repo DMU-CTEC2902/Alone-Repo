@@ -154,21 +154,6 @@ namespace MovieReviewWebsite.Controllers
 
         }
 
-        // GET: Film/Delete/5
-        public ActionResult Delete(int? id)
-        {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            Film film = db.Films.Find(id);
-            if (film == null)
-            {
-                return HttpNotFound();
-            }
-            return View(film);
-        }
-
         private List<Film> films = new List<Film>()
         {
             new Film { FilmID = 1,
