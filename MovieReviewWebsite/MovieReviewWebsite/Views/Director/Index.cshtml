@@ -1,0 +1,60 @@
+﻿@model IEnumerable<MovieReviewWebsite.Models.Director>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div class="card">
+        <div class="card-header">
+            <h2>Director Information</h2>
+        </div>
+        <div class="card-body">
+            <p>
+                @Html.ActionLink("Create New", "Create")
+            </p>
+            <table class="table table-striped">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.DirectorID)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.DirectorName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Description)
+                    </th>
+                    <th></th>
+                </tr>
+        </div>
+    </div>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>
+                <h1><span class="badge badge-primary">@Html.DisplayFor(modelItem => item.DirectorName)</span></h1>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DirectorID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+            <td></td>
+        </tr>
+    }
+
+    </table>
+</body>
+</html>
+
