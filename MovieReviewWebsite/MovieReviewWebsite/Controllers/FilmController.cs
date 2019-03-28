@@ -159,7 +159,7 @@ namespace MovieReviewWebsite.Controllers
             new Film { FilmID = 1,
 
                 Name = "Aquaman",
-                Description = "Aquaman is a film",
+                Description = "Arthur Curry, the human-born heir to the underwater kingdom of Atlantis, goes on a quest to prevent a war between the worlds of ocean and land.",
                 FilmLength = "2h 22m",
                 GenreID = 1,
                 Rating = "5 Stars"},
@@ -167,7 +167,7 @@ namespace MovieReviewWebsite.Controllers
             new Film { FilmID = 2,
 
                 Name = "The Lord of the Ring",
-                Description = "The Lord of the Ring is a film",
+                Description = "A young Hobbit known as Frodo has been thrown on an amazing adventure, when he is appointed the job of destroying the one ring which was created by the dark lord Sauron. He is assigned with three warriors including Gandelf, Aragorn and Boromir. But it's not going to be an easy journey for the Fellowship of the Ring, on the ultimate quest to rid the Middle-Earth of all evil!",
                 FilmLength = "2h 30m",
                 GenreID = 2,
                 Rating = "5 Stars"},
@@ -175,7 +175,7 @@ namespace MovieReviewWebsite.Controllers
             new Film { FilmID = 3,
 
                 Name = "Avatar",
-                Description = "Avatar is a film",
+                Description = "A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
                 FilmLength = "2h 30m",
                 GenreID = 3,
                 Rating = "4 Stars" },
@@ -183,7 +183,7 @@ namespace MovieReviewWebsite.Controllers
             new Film { FilmID = 4,
 
                 Name = "The Shape of Water",
-                Description = "The Shape of Water is a film",
+                Description = "At a top secret research facility in the 1960s, a lonely janitor forms a unique relationship with an amphibious creature that is being held in captivity.",
                 FilmLength = "2h 19m",
                 GenreID = 4,
                 Rating = "4.5 Stars" },
@@ -191,7 +191,7 @@ namespace MovieReviewWebsite.Controllers
              new Film { FilmID = 5,
 
                 Name = "Gravity",
-                Description = "Gravity is a film",
+                Description = "Two astronauts work together to survive after an accident leaves them stranded in space.",
                 FilmLength = "1h 45m",
                 GenreID = 5,
                 Rating = "5 Stars" },
@@ -206,28 +206,28 @@ namespace MovieReviewWebsite.Controllers
 
                 new Film { FilmID = 7,
                     Name = "Their Finest",
-                    Description = "Their Finest is a film",
+                    Description = "Ryan Bingham enjoys living out of a suitcase for his job, travelling around the country firing people, but finds that lifestyle threatened by the presence of a potential love interest, and a new hire.",
                     FilmLength = "2h 30m",
                     GenreID  = 7,
                     Rating = "4 Stars" },
 
                  new Film { FilmID = 8,
                      Name = "Before Sunset",
-                     Description = "Before Sunset is a film",
+                     Description = "Nine years after Jesse and Celine first met, they encounter each other again on the French leg of Jesse's book tour.",
                      FilmLength = "1h 20m",
                      GenreID = 3,
                      Rating = "5 Stars" },
 
                  new Film { FilmID = 9,
                      Name = "Cinderella",
-                     Description = "Cinderella is a film",
+                     Description = "When her father unexpectedly dies, young Ella finds herself at the mercy of her cruel stepmother and her scheming stepsisters. Never one to give up hope, Ella's fortunes begin to change after meeting a dashing stranger.",
                      FilmLength = "1h 59m",
                      GenreID = 9,
                      Rating = "4.5 Stars" },
 
                  new Film { FilmID = 10,
                      Name = "The Mask of Zorro",
-                     Description = "The Mask of Zorro is a film",
+                     Description = "A young thief, seeking revenge for the death of his brother, is trained by the once great, but aged Zorro, who also pursues vengeance of his own.",
                      FilmLength = "1h 45m",
                      GenreID = 1,
                      Rating = "5 Stars" },

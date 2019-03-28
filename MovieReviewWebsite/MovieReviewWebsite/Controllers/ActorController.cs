@@ -1,13 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.Entity;
 using System.Linq;
+using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using MovieReviewWebsite.Models;
+
 
 namespace MovieReviewWebsite.Controllers
 {
     public class ActorController : Controller
     {
+        private ActorContext db = new ActorContext();
         // GET: Actor
         public ActionResult Index()
         {
@@ -84,5 +90,6 @@ namespace MovieReviewWebsite.Controllers
                 ActorName = "Sam",
                 Description = "bla bla bla"},
             };
+        //private object db;
     }
 }
