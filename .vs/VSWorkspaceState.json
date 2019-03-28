@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\MovieReviewWebsite",
-    "\\WindowsFormsApp1"
+    "\\MovieReviewWebsite\\MovieReviewWebsite\\Views",
+    "\\MovieReviewWebsite\\MovieReviewWebsite\\Views\\Film"
   ],
-  "SelectedNode": "\\WindowsFormsApp1\\WindowsFormsApp1.sln",
+  "SelectedNode": "\\MovieReviewWebsite\\MovieReviewWebsite",
   "PreviewInSolutionExplorer": false
 }
